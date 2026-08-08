@@ -1,0 +1,17 @@
+curl -sS https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/9989 | jq '{number, state, title, html_url, head: {ref: .head.ref, repo: .head.repo.full_name, fork: .head.repo.fork}, base: {ref: .base.ref, repo: .base.repo.full_name}}'
+
+{
+  "number": 9989,
+  "state": "open",
+  "title": "Fix compound interest sample comment",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/9989",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": "taxaceaee/mcino-Introduction-to-Git-and-GitHub",
+    "fork": true
+  },
+  "base": {
+    "ref": "main",
+    "repo": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
