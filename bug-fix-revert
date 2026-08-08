@@ -1,17 +1,18 @@
-curl -sS https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/9989 | jq '{number, state, title, html_url, head: {ref: .head.ref, repo: .head.repo.full_name, fork: .head.repo.fork}, base: {ref: .base.ref, repo: .base.repo.full_name}}'
+curl -sS https://api.github.com/repos/taxaceaee/github-final-project/pulls/1 | jq '{number, state, merged_at, title, html_url, head: {ref: .head.ref, repo: .head.repo.full_name, fork: .head.repo.fork}, base: {ref: .base.ref, repo: .base.repo.full_name}}'
 
 {
-  "number": 9989,
+  "number": 1,
   "state": "closed",
+  "merged_at": "2026-08-08T05:35:21Z",
   "title": "Fix compound interest sample comment",
-  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/9989",
+  "html_url": "https://github.com/taxaceaee/github-final-project/pull/1",
   "head": {
     "ref": "bug-fix-revert",
-  "repo": "taxaceaee/github-final-project",
+    "repo": "taxaceaee/github-final-project",
     "fork": true
   },
   "base": {
     "ref": "main",
-    "repo": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    "repo": "taxaceaee/github-final-project"
   }
 }
