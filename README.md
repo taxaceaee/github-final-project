@@ -2,7 +2,9 @@
 
 ## Simple Interest Calculator
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+A calculator that computes simple interest given principal, annual rate of interest and time period in years.
+
+Use `simple-interest.sh` to calculate simple interest from your input values.
 
 ```
 Input:

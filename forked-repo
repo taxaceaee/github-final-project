@@ -1,0 +1,7 @@
+curl -sS https://api.github.com/repos/taxaceaee/github-final-project | jq '{full_name, fork, parent: .parent.full_name}'
+
+{
+  "full_name": "taxaceaee/github-final-project",
+  "fork": true,
+  "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}

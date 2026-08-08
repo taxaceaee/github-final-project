@@ -1,0 +1,7 @@
+git branch -vv
+git status --short --branch
+
+  bug-fix-revert 996fd77 [origin/bug-fix-revert] Fix compound interest sample comment
+  bug-fix-typo   c49b447 [origin/bug-fix-typo] Fix typo in calculator script
+* main           61aca92 [origin/main] Record pull request verification
+## main...origin/main
