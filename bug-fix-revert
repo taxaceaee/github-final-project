@@ -2,7 +2,7 @@ curl -sS https://api.github.com/repos/ibm-developer-skills-network/mcino-Introdu
 
 {
   "number": 9989,
-  "state": "open",
+  "state": "closed",
   "title": "Fix compound interest sample comment",
   "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/9989",
   "head": {
