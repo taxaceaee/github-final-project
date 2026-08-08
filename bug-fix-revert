@@ -7,7 +7,7 @@ curl -sS https://api.github.com/repos/ibm-developer-skills-network/mcino-Introdu
   "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/9989",
   "head": {
     "ref": "bug-fix-revert",
-    "repo": "taxaceaee/mcino-Introduction-to-Git-and-GitHub",
+  "repo": "taxaceaee/github-final-project",
     "fork": true
   },
   "base": {
